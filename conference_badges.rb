@@ -16,3 +16,5 @@ def printer(attendees)
     batch_badge_creator(attendees).each {|person| puts person}
     assign_rooms(attendees).each {|rooms| puts rooms}
 end
+
+printer(["Rob", "Jade", "Jesse"])
